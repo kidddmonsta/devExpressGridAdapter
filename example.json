@@ -1,0 +1,169 @@
+{
+  "columns": [
+    {
+      "visibleIndex": 0,
+      "dataField": "AmountOfApps",
+      "dataType": "number",
+      "visible": true
+    },
+    {
+      "visibleIndex": 1,
+      "dataField": "KindOfApps",
+      "dataType": "string",
+      "visible": true,
+      "filterValue": null,
+      "filterValues": null,
+      "filterType": "include"
+    },
+    {
+      "visibleIndex": 2,
+      "dataField": "YearOfRealisation",
+      "dataType": "number",
+      "visible": true,
+      "sortOrder": "asc",
+      "sortIndex": 0,
+      "filterValue": null
+    },
+    {
+      "visibleIndex": 3,
+      "dataField": "officeCode",
+      "dataType": "string",
+      "visible": true
+    }
+  ],
+  "allowedPageSizes": [
+    5,
+    10,
+    50
+  ],
+  "filterPanel": {
+    "filterEnabled": true
+  },
+  "filterValue": null,
+  "searchText": "",
+  "pageIndex": 0,
+  "pageSize": 5,
+  "selectionFilter": [
+    [
+      [
+        [
+          [
+            [
+              null,
+              "=",
+              {
+                "AmountOfApps": 4187,
+                "KindOfApps": "A ",
+                "YearOfRealisation": 2000,
+                "officeCode": "CA"
+              }
+            ],
+            "and",
+            [
+              "!",
+              [
+                null,
+                "=",
+                {
+                  "AmountOfApps": 115115,
+                  "KindOfApps": "U ",
+                  "YearOfRealisation": 2000,
+                  "officeCode": "R2"
+                }
+              ]
+            ]
+          ],
+          "and",
+          [
+            "!",
+            [
+              null,
+              "=",
+              {
+                "AmountOfApps": 816501,
+                "KindOfApps": "A ",
+                "YearOfRealisation": 2001,
+                "officeCode": "W1"
+              }
+            ]
+          ]
+        ],
+        "and",
+        [
+          "!",
+          [
+            null,
+            "=",
+            {
+              "AmountOfApps": 896300,
+              "KindOfApps": "A ",
+              "YearOfRealisation": 2001,
+              "officeCode": "WD"
+            }
+          ]
+        ],
+        "and",
+        [
+          "!",
+          [
+            null,
+            "=",
+            {
+              "AmountOfApps": 874800,
+              "KindOfApps": "A ",
+              "YearOfRealisation": 2000,
+              "officeCode": "WD"
+            }
+          ]
+        ]
+      ],
+      "or",
+      [
+        null,
+        "=",
+        {
+          "AmountOfApps": 7,
+          "KindOfApps": "A ",
+          "YearOfRealisation": 2000,
+          "officeCode": "YE"
+        }
+      ],
+      "or",
+      [
+        null,
+        "=",
+        {
+          "AmountOfApps": 4,
+          "KindOfApps": "A ",
+          "YearOfRealisation": 2000,
+          "officeCode": "HN"
+        }
+      ],
+      "or",
+      [
+        null,
+        "=",
+        {
+          "AmountOfApps": 13870,
+          "KindOfApps": "A ",
+          "YearOfRealisation": 2000,
+          "officeCode": "FR"
+        }
+      ]
+    ],
+    "and",
+    [
+      "!",
+      [
+        null,
+        "=",
+        {
+          "AmountOfApps": 826,
+          "KindOfApps": "U ",
+          "YearOfRealisation": 2000,
+          "officeCode": "AT"
+        }
+      ]
+    ]
+  ]
+}
